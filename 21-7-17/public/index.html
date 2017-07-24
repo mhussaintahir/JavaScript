@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <style>
+        #main_content
+{
+    width: 190px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+    #digit_line
+    {
+        width: 180px;
+        height: 40px;
+        border: 2px solid black;
+
+
+    }
+
+     button{
+        font-size: 20px;
+        margin-top: 10px;
+        margin: 0 auto;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="heading"></h1>
+
+    <div id="main_content">
+
+        <div id="digit_line">
+
+            <input type="text" name="answer" value="" id="result">
+
+
+        </div>
+
+            <button type="button" onClick="operator('+')" id="plus" >+</button>
+            <button type="button" onClick="operator('-')" id="minus">-</button>
+            <button type="button" onClick="operator('*')" id="mult" >*</button>
+            <button type="button" onClick="operator('/')" id="divide">/</button>
+            <br>
+
+            
+            <button type="button" onclick="perform('1')" >1</button>
+            <button type="button" onclick="perform('2')" >2</button>   
+            <button type="button" onclick="perform('3')" >3</button>   <br>
+            <button type="button" onclick="perform('4')" >4</button>
+            <button type="button" onclick="perform('5')" >5</button>   
+            <button type="button" onclick="perform('6')" >6</button>   <br>
+            <button type="button" onclick="perform('7')" >7</button>
+            <button type="button" onclick="perform('8')" >8</button>
+            <button type="button" onclick="perform('9')" >9</button>   <br>
+
+            <button type="button" onclick="perform('0')" >0</button>
+            <button type="button" onclick="perform('CE')" >CE</button>
+    </div>
+
+
+
+    <script src="app.js"> 
+        
+    </script>
+    
+</body>
+</html>
