@@ -1,0 +1,43 @@
+.main_body {
+    background-color: black;
+    position: absolute;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.ans_field {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.r1 {
+    margin-top: 20px;
+}
+
+.r1,
+.r2,
+.r3,
+.r4 {
+    margin-left: 10px;
+    ;
+}
+
+sup {
+    font-size: 0.5em;
+}
+
+
+/*button {
+    background-color: #4CAF50;
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}*/
