@@ -1,0 +1,128 @@
+
+
+ 
+#container
+{
+    width: 800px;
+    height: auto;
+    /* border: 6px solid white; */
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.heading{
+    
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1.5em;
+    font-family: cursive;
+    text-align: center;
+}
+
+.main_content
+{
+        margin: 0 auto;
+        width: 600px;
+        height: auto;
+        /* border: 1px solid white; */
+
+}
+    /* input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+} */
+
+
+
+
+/* button {
+    background-color: #0B84D3; /////////// another button code style............
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+
+} */
+
+.but{
+      margin: 0 auto;
+        width: 600px;
+        height: auto;
+         /* border: 1px solid white;  */
+
+
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0B84D3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 282px;
+  transition: all 0.5s;
+  cursor: pointer;
+   margin: 8px; 
+  
+
+  
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+    
+.customize_bullet{
+
+    list-style-type: none;
+    
+
+    /* list-style: square inside url("image/tick.jpg"); */
+
+    /* list-style-image: url("image/tick.jpg"); */
+
+}
+
+#listTask{
+
+    color: white;
+    font-size: 2.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}

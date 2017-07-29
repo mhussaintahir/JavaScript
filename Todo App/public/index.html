@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="styling/style.css">
+    <style> 
+    html { 
+    background: url('images/1.jpg') no-repeat center fixed; 
+    background-size: cover;
+        }
+
+    body { 
+    color: white; 
+    }
+
+        input[type=text], select{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* background-image: url('images/pen1.png'); */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+ 
+    </style>
+</head>
+<body>
+
+ 
+    <div id="container">
+        <div class="heading">
+
+            <h1>TODO APP</h1>
+        </div>
+            <div class="main_content">
+                <input type="text" id="task" placeholder="Your todo text goes here...">
+                    <div class="but">
+                        <button onclick="todoTaskAdd();" style="vertical-align:middle"><span>Add</span> </button> 
+                        <button onclick="todoTaskRemove();" style="vertical-align:middle" ><span>Delete</span> </button> 
+                    </div>
+                <br>    
+   
+                <span id="listTask">   </span>  
+        </div>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
