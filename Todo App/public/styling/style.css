@@ -126,3 +126,9 @@ button:hover span:after {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
+
+.float-right
+{
+
+    float: right;
+}

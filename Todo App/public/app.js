@@ -9,7 +9,7 @@ var olist;
 var button;
 var span;
 var newText;
-var disp;
+var disp,btnTxt,dltBtn;
 
 function todoTaskAdd()
 {
@@ -29,17 +29,23 @@ if(document.getElementById("task").value === '')
     
  list=document.createElement("li");
 
-  span=document.createElement("span");
+
+  dltBtn=document.createElement("BUTTON");
+  btnTxt=document.createTextNode("Delete");
+
+  dltBtn.setAttribute("class", "float-right");
 
  newText=document.createTextNode(val);
 
  olist.appendChild(list);
- list.appendChild(span);
- span.appendChild(newText);
+ list.appendChild(newText);
+ list.appendChild(dltBtn);
+ dltBtn.appendChild(btnTxt);
 
 
   disp=document.getElementById("listTask").appendChild(olist);
-  document.getElementById("task").value="";
+  document.getElementById("task").value='';
+  
     }
 
 
@@ -48,7 +54,7 @@ if(document.getElementById("task").value === '')
 
 function todoTaskRemove()
 {
-
-document.getElementById("listTask").remove();
-
+    // document.getElementById("listTask").removeChild();
+    document.getElementById("listTask").remove();
+    
 }
