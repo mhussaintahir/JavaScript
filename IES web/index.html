@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Internet Entertainment Server</title>
+
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Internet Entertainment Server" />
+
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+																  function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
+
+
+<!-- //for-mobile-apps -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,400italic,300italic,600italic,700' rel='stylesheet' type='text/css'>
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>   //not yet used can be removed -->
+
+<script>
+function showonlyone(thechosenone) {
+      var thediv = document.getElementsByTagName("div");
+            for(var x=0; x<thediv.length; x++) {
+                  name = thediv[x].getAttribute("class");
+                  if (name == 'OPTION') {
+                        if (thediv[x].id == thechosenone) {
+                        thediv[x].style.display = 'block';
+                  }
+                  else {
+                        thediv[x].style.display = 'none';
+                  }
+            }
+      }
+}
+</script>
+
+
+</head>
+
+<body>
+	
+    <div class="main">
+		
+        <header>  </header> 
+        
+        <!-- <h1>Internet Entertainment Server</h1> -->
+		
+        <div class="Three_user_forms">
+			
+            <div class="agile-info_tuf hvr-buzz-out">
+				
+                <a id="Header1" href="javascript:showonlyone('thediv1');" >  <h3>Register</h3>  </a>
+				
+                <div class="OPTION" id= "thediv1" style = "display:block">
+                <div class="agile-info_tuf_grid">
+					
+                    <form action="#" method="post">
+					
+                    	<input type="text" name="Full Name" placeholder="Full Name" required=" ">
+                        
+                        <input type="text" name="Uname" placeholder="User Name" required=" ">
+					
+                    	<input type="email" name="Email" placeholder="Email" required=" ">
+                        
+                        <input type="password" name="Password" placeholder="Password" required=" ">
+					
+                    	<input type="password" name="Cpassword" placeholder="Confirm Password" required=" ">
+					
+                    	<div class="SQ"> 
+                        <p1>
+                         Security Question
+                        
+                            <select name="QList">
+                            <option disabled="disabled" selected="SelectOne">- SELECT ONE -</option>
+                            <option value="teacher">Who is your favourite teacher?</option>
+                            <option value="actor">Who is your favourite actor?</option>
+                            <option value="birthplace">What is your birth place?</option>
+                     		<option value="tvshow">Your favourite tv show?</option>
+                            <option value="movie">Your favourite movie?</option>
+                            <option value="game">Your favourite game?</option>
+                          	</select>
+                        
+                        	<input type="SQ_Answer" name="SQ_Answer" placeholder="Answer" required>
+                        </p1>
+                        </div>
+					
+                    	<div class="check">
+					
+                    		<style>
+								a:link    {color:#00a78e; background-color:transparent; text-decoration:none}
+								a:visited {color:#6a67ce; background-color:transparent; text-decoration:none}
+								a:hover   {color:#ffb900; background-color:transparent; text-decoration:underline}
+								a:active  {color:#fc636b; background-color:transparent; text-decoration:underline}
+							</style>
+                            
+                            <label class="checkbox"><input type="checkbox" name="checkbox" checked><i> </i>i agree to the <span> <a target="_blank" href="javascript:void window.open('http://www.jotform.com','','scrollbars=yes,menubar=yes,resizable=yes,left=30,top=30,height=500,width=650')"> terms of services </a> </span></label>
+					
+                    	</div>
+					
+                    	<input type="submit" value="Sign Up">
+					
+                    </form>
+					
+                    <h5>Already a member? <a href="#">  <a id="Header2" href="javascript:showonlyone('thediv2');" >  Sign In</a></h5>
+
+				</div>
+                </div>
+
+			</div>
+
+			<div class="agile-info_tuf agile-info_tuf_sub hvr-buzz-out">
+
+				<a id="Header2" href="javascript:showonlyone('thediv2');" >  <h3>Login</h3>  </a>
+
+				<div class="OPTION" id= "thediv2" style = "display:none">
+                <div class="agile-info_tuf_grid second">
+
+					<form action="#" method="post">
+
+						<input type="text" name="Name" placeholder="User Name" required=" ">
+
+						<input type="password" name="Password" placeholder="Password" required=" ">
+
+					</form>
+
+					<div class="agile_remember">
+
+						<div class="agile_remember_left">
+
+							<div class="check">
+
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>remember me</label>
+
+							</div>
+
+						</div>
+
+						<div class="agile_remember_right">
+
+							<a href="#">  <a id="Header2" href="javascript:showonlyone('thediv3');" >  Forgot Password?</a>
+
+						</div>
+
+						<div class="clear"> </div>
+
+					</div>
+
+					<form action="#" method="post">
+
+						<input type="submit" value="Sign In">
+
+					</form>
+
+					<h4>STAY IN TOUCH</h4>
+
+					<div class="social_icons agileinfo">
+
+					   <section class="social">
+
+						  <a href="https://www.facebook.com/"  target="_blank"  class="icon fb"><img src="images/f.png" alt=""/></a>
+
+						  <a href="https://twitter.com/"  target="_blank"  class="icon tw"><img src="images/t.png" alt=""/></a>
+
+						  <a href="https://plus.google.com/"  target="_blank"  class="icon gp"><img src="images/g.png" alt=""/></a>
+
+						</section>
+
+					</div>
+
+					<h5>Don't have an account? <a href="#">  <a id="Header2" href="javascript:showonlyone('thediv1');" >  Sign Up</a></h5>
+
+				</div>
+                </div>
+
+			</div>
+
+			<div class="agile-info_tuf third hvr-buzz-out">
+
+				<a id="Header3" href="javascript:showonlyone('thediv3');" >  <h3>Account Reset</h3>  </a>
+
+				<div class="OPTION" id= "thediv3" style = "display:none">
+                <div class="agile-info_tuf_grid third">
+
+					<form action="#" method="post">
+
+						<input type="email" name="Email" placeholder="Email" required=" ">
+
+						<p class="asd">Great passwords use upper and lower case
+
+							characters, numbers and symbols like "!@#$*.</p>
+
+						<input type="reset" value="Clear">
+
+						<input type="submit" value="Reset Password">
+
+					</form>
+
+					<h5 class="rest">Already a member? <a href="#">  <a id="Header2" href="javascript:showonlyone('thediv2');" >  Sign In</a></h5>
+
+				</div>
+
+			</div>
+            </div>
+
+			<div class="clear"> </div>
+
+		</div>
+
+		<footer> 
+        <div class="agileits_copyright">
+
+			<p>© 2016 Internet Entertainment Server. All rights reserved | Design by Strategic Perfectors<a href="http://facebook.com/Strategic Perfectors"> "Follow Us" </a></p>
+
+		</div> 
+        </footer>
+
+	</div>  
+    
+
+</body>
+
+</html>

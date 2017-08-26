@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Tab icon -->
+    <link rel="icon" type="image/png" href="images/pen1.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/pen1.png" sizes="32x32">
+    
+    <title>Real Time Todo App</title>
+
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBIxsPioxX62V66CUXwA_tJuVs6WEbz6Y0",
+        authDomain: "fir-database-d7a14.firebaseapp.com",
+        databaseURL: "https://fir-database-d7a14.firebaseio.com",
+        // projectId: "fir-database-d7a14",
+        // storageBucket: "fir-database-d7a14.appspot.com",
+        // messagingSenderId: "876646650748"
+      };
+      firebase.initializeApp(config);
+    </script>
+    
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    
+    <!-- Custom styles for this app -->
+    <link rel="stylesheet" href="styles/style.css">
+    
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"><img src="images/pen1.png" alt="icon" width="30px" height="30px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <div class="fixed-top fixed "> 
+          <h1 class="display-4">TODO APP</h1>
+          <div class="input-group starter-template" id="container">
+          
+              
+            <span class="input-group-addon" id="basic-addon1"><img src="images/pen1.png" alt="addon image" width="20px" height="20px"></span>
+            <input type="text" id="input" class="form-control" placeholder="your todo text goes here..." aria-label="Username" aria-describedby="basic-addon1">
+              <button class="btn btn-success" id="but" onclick="todo()" title="Add now">Add</button>
+          
+          
+            </div>
+          </div>
+          </div>
+            <div id="listing">  
+              
+              <ul id="unOrderList"></ul>
+              
+          </div>
+
+    </div><!-- /.container -->
+
+    <!-- JavaScript Application
+    ================================================== -->
+      <script src="app.js"></script>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <!-- <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>

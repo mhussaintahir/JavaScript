@@ -1,0 +1,58 @@
+
+
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  
+  
+}
+#listing{
+    padding: 3rem 1.5rem;
+}
+.fixed
+{
+    margin-top: 50px;
+    /* padding: 3rem 1.5rem; */
+    padding: 5px 1.5rem 5px 1.5rem;
+    background-color: white;
+}
+.input-group{
+    padding: 5px 0px 5px 0px;
+}
+
+/* 
+#container,#listing
+{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.heading
+{
+    margin-top: 10px;
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 30px;
+    
+}
+.transp 
+{
+    opacity: 50%;
+}
+#prgs
+{
+    width: 500px;
+    margin: 0 auto;
+    
+    
+
+}
+h6{
+
+    padding-left: 20px;
+}
+ */
