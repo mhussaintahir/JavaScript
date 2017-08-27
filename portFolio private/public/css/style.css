@@ -35,19 +35,20 @@ h6 {
     color: #444;
 }
 
-#gallery{
+/* #gallery{
     width:100%;
 	position:relative;	
 	background: url(../images/6.jpg) no-repeat top center;
 	background-size: cover;
-}
+} */
 
-#gallery{
+/* #gallery{
     width:100%;
 	position:relative;	
-	background: url(../images/6.jpg) no-repeat top center;
+	background: url(../images/6.jpg) no-repeat bottom center;
 	background-size: cover;
-}
+} */
+
 #contact{
     width:100%;
 	position:relative;	
@@ -288,16 +289,22 @@ hr {
 }
 
 .section-heading {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
+    
+    
 }
 
 .section-heading h2 {
 	font-size: 40px;
 	margin-bottom: 10px;
-	line-height: 1em;
+    line-height: 1em;
+    text-align: center;
+}
+.section-heading p{
+    text-align: center;
 }
 .section-heading i {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -481,7 +488,8 @@ Parallax
 ============================= */
 
 #separator {	
-	background-image: url(../img/parallax-bg.jpg);
+    background-image: url(../images/skills.jpg);
+    /* background-size: cover; */
 }
 
 #separator .icon {

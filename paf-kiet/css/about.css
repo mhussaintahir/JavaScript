@@ -1,0 +1,99 @@
+	@charset "utf-8";
+	/* CSS Document */
+	
+	*{
+		margin:0px;
+		padding:0px;}
+	
+	
+	#container{
+		background-color:red;
+		width:1156px;
+		height:1200px;
+		margin:auto;
+		}
+	
+	#header{
+			background-color:#FDFBFB;
+			width:1106px;
+			height:150px;
+			padding:0px 25px;
+			border:1px solid #036;
+		}
+		
+	#header img{
+			margin-top:20px;
+			float:left;
+		}
+		
+	#header table{
+		margin-top:50px;
+		float:right;
+	}
+		
+	#header a
+	{ 
+		text-decoration:none;
+		color:fdf9f9;
+		font-family:Arial;
+		font-size:20px;
+		padding:10px;
+	
+	}
+	
+	#header a:hover
+	{
+		color:black;
+	}
+	
+#navigation{
+	background-color:#011f4b;
+	width:1156px;
+	height:50px;
+	text-align:center;
+	word-spacing:10px;
+	padding-top:30px;
+	border:1px solid #036;
+	}
+	
+#navigation a
+{ 
+	text-decoration:none;
+	color:#fff;
+	font-family:Calibri;
+	font-size:20px;
+}
+
+#navigation a:hover
+{
+	color:#CCC;
+}
+
+
+#section1{
+	background-color:#f7f7f7;
+	width:1156px;
+	height:500px;
+	border:1px solid #036;
+	}
+	
+	
+#section2{
+	background-color:#f7f7f7;
+	width:1106px;
+	height:500px;
+	padding:25px;
+	border:1px solid #036;
+	}
+
+
+
+#footer{
+	background-color:#5d5d5d;
+	width:1136px;
+	height:30px;
+	text-align:center;
+	padding:10px;
+	color:#fdf9f9;
+	border:1px solid #036;
+	}

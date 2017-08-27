@@ -10,8 +10,8 @@
 	<title>Muhammad Hussain Portfolio</title>
 	
 	<!-- Tab icon -->
-    <link rel="icon" type="image/png" href="images/track-P.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="images/track-P.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/ruble1600.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/ruble1600.png" sizes="32x32">
 
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -23,28 +23,24 @@
 	<link href="css/animate.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
+	<!-- circles -->
+	<link rel="stylesheet" href="css/circle.css">
+	<link rel="stylesheet" href="sass/circle.scss">
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-	<!-- Preloader -->
-	<!-- <div id="preloader">
-	  <div id="load"></div>
-	</div> -->
-
-	<!-- Section: intro -->
-
+	
+	<!-- //////////////////////////////////////////////////////////////// HOME //////////////////////////////////////////////// -->
 	<section id="intro" class="intro">
 						
-			<!-- <div class="slogan">
-				<a href="index.html"><img src="" alt="my cover"></a>
-			</div> -->
+
 			<div class="page-scroll">
 				<a href="#about">
 					<i class="fa fa-angle-down fa-5x animated" title="let's Roll"></i>
 				</a>
 			</div>
-</section>
+	</section>
     
 	<!-- /Section: intro -->
 	
@@ -64,13 +60,15 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="menu">
                                     <ul class="nav navbar-nav">
-                                        <li class="active"><a href="#page-top">Home</a></li>
-                                        <li><a href="#about">About Me</a></li>
-										<li><a href="#gallery">Portfolio</a></li>                                                                                                             
-                                    	<li><a href="#contact">Contact</a></li>
+                                        <li class="wow lightSpeedIn" data-wow-delay="0.3s"><a href="#page-top">Home</a></li>
+										<li class="wow bounceInUp" data-wow-delay="0.4s"><a href="#about">About Me</a></li>
+										<li class="wow lightSpeedIn" data-wow-delay="0.3s"><a href="#skills">Skills</a></li>										
+										<li class="wow bounceInUp" data-wow-delay="0.4s"><a href="#portfolio">Portfolio</a></li>
+										<li class="wow lightSpeedIn" data-wow-delay="0.3s"><a href="resume/cv_Hussain1.png" target="_blank">Resume</a></li>										
+                                    	<li class="wow bounceInUp" data-wow-delay="0.4s"><a href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
-                                <!-- /.Navbar-collapse -->
+                                <!-- /.Navbar -->
                              
                             </div>
                         </div>
@@ -81,7 +79,7 @@
 	<!-- /Navigation -->  
 	
 	
-
+	<!-- /////////////////////////////////////////////////////////////////////// ABOUT ///////////////////////////////////////s -->
 	<!-- Section: about -->
     <section id="about" class="home-section">
 		<div class="container">
@@ -90,7 +88,7 @@
 					
 						<div class="section-heading text-center">
 						<div class="wow bounceInDown" data-wow-delay="0.2s">
-							<h2>My name is Muhammad Hussain</h2>
+							<h2 style="color:#fff">My name is Muhammad Hussain</h2>
 						</div>
 						<p class="wow bounceInUp" data-wow-delay="0.3s">I'm 20 years old Computer Engineer and Front End developer too.</p>
 						</div>
@@ -110,60 +108,160 @@
 					<p><strong>A quick Review about myself</strong></p>
 					<p>
 						I am an undergraduate student from Sir Syed University of Engineering and Technolgy
-						batch 2015, I am now studying there Computer Engineering and my other dedications is
-						Mobile application and development for this i am very Sincere.
+						batch 2015 and now studying Computer Engineering. Except this i am also studying in Sylani
+						Mass trainig program and enrolled in batch 4.2 here i am focusing on
+						Mobile application and development for this i am giving my best todo something in technology.
 					</p>
-					<blockquote>
-					Khamooshi Sy Pehchan Banaty Jao <br> Waqt Khud Batayega Tumhara Naam   
+					<p>	
+						I have completed my schooling from karachi citizen's Academy in 2012 as 1<sup>st</sup> division. then i completed my Inter 
+						from Govt National College Karachi as 1<sup>st</sup> division in 2014 from the begining i was very 
+						passionate about computer technologies therefore studying in Sylani is a <strong>Golden Chance</strong> 
+						for me. I'll never try to loose this and always be sincere with those who give me this chance and be always with them for
+						development of country. 
+
+					</p>
+					<blockquote> 
+					<i>	Khamooshi Sy Pehchan Banaty Jao <br> Waqt Khud Batayega Tumhara Naam </i>  
 					</blockquote>
 					
-					<a href="#gallery" class="btn btn-skin btn-lg btn-scroll">Goto my field work</a>
+					<a href="#portfolio" class="btn btn-skin btn-lg btn-scroll">Goto my field work</a>
 				</div>
 			</div>		
 		</div>
 	</section>
-	
-	
-	
-	<!-- Section: gallery -->
-    <section id="gallery" class="home-section text-center bg-gray">
 
+	<!-- //////////////////////////////Skills/////////////////////////////////////////////// -->
+	<!-- Section: Skills -->
+
+	<section id="skills" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+			
+			
+						<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-lg-offset-2">
+								<div class="wow bounceInDown" data-wow-delay="0.4s">
+								<div class="section-heading" >
+									<h2>My Skills</h2>
+									<p>Take a look at Skills</p>
+								</div>
+								</div>
+							</div>
+						</div>
+	</section>
+
+    <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+
+		
+		<div id="skills" class="skills">
 			<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
-					<div class="section-heading">
-						<h2>My Portfolio</h2>
-						<p>Take a look at Portfolio</p>
+				<div class="skills-grids">
+					<div class="services_grids">
+						<div id="canvas">
+							<div class="skill-grids text-center">
+								<div class="col-md-3">
+									<div class="skill-grid">
+										<div class="circle" id="circles-1"></div>
+										<h3 style="color:#fff">CSS3/BootStrap</h3>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="skill-grid">
+										<div class="circle" id="circles-2"></div>
+										<h3 style="color:#fff">HTML5</h3>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="skill-grid">
+										<div class="circle" id="circles-3"></div>
+										<h3 style="color:#fff">JavaScript</h3>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="skill-grid">
+										<div class="circle" id="circles-4"></div>
+										<h3 style="color:#fff">JAVA</h3>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
 					</div>
-					</div>
+					
+					<script type="text/javascript" src="js/circles.js"></script>
+					<script>
+						var colors = [['#500078', '#fff'], ['#500078', '#fff'], ['#500078', '#fff'], ['#500078', '#fff']];
+						for (var i = 1; i <= 5; i++) {
+							var child = document.getElementById('circles-' + i),
+								percentage = 50 + (i * 10);
+
+							Circles.create({
+								id: child.id,
+								percentage: percentage,
+								radius: 80,
+								width: 10,
+								number: percentage,
+								text: '%',
+								colors: colors[i - 1]
+							});
+						}
+					</script>
+
+					<!--/-->
 				</div>
 			</div>
-			</div>
-
-		<div class="container">
-			<div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12" >
-					<div class="wow bounceInUp" data-wow-delay="0.4s">
-                    <div id="owl-works" class="owl-carousel">
-                        <div class="item"><a href="img/gallery/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/1.jpg" class="img-responsive" alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/2.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/3.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/4.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/5.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/5.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/6.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/6.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/7.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/7.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="img/gallery/8.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="img/gallery/8.jpg" class="img-responsive " alt="img"></a></div>
-                    </div>
-					</div>
-                </div>
-            </div>
+			<a class="down scroll" href="#port"><span> </span></a>
 		</div>
+	</div>
+	
 	</section>
-	<!-- /Section: services -->
+	<!-- /Section: sKills -->
+	
+	<!-- ///////////////////////////////////////////////////////// PORTFOLIO ///////////////////////////////////////////// -->
+
+	<!-- section portfolio -->
+	
+	<section id="portfolio" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+			
+			
+						<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-lg-offset-2">
+								<div class="wow bounceInDown" data-wow-delay="0.4s">
+								<div class="section-heading" >
+									<h2>My Portfolio</h2>
+									<p>Take a look at Portfolio</p>
+								</div>
+								</div>
+							</div>
+						</div>
+	</section>
+
+	<section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+			
+			<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12" >
+							<div class="wow bounceInUp" data-wow-delay="0.4s">
+							<div id="owl-works" class="owl-carousel">
+								<div class="item"><a href="images/todo.png" title="Todo Application based on Firebase Database" data-lightbox-gallery="gallery1"><img src="images/todo.png" class="img-responsive" alt="img"></a></div>
+								<div class="item"><a href="images/ies.png" title="Internet Entertainment server website" data-lightbox-gallery="gallery1"><img src="images/ies.png" class="img-responsive " alt="img"></a></div>
+								<div class="item"><a href="images/blogo.png" title="Brand logos website" data-lightbox-gallery="gallery1"><img src="images/blogo.png" class="img-responsive " alt="img"></a></div>
+								<div class="item"><a href="images/pk.png" title="Paf kiet website layout" data-lightbox-gallery="gallery1"><img src="images/pk.png" class="img-responsive " alt="img"></a></div>
+								<div class="item"><a href="images/travmate.png" title="Travel mate Host Page" data-lightbox-gallery="gallery1"><img src="images/travmate.png" class="img-responsive " alt="img"></a></div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					
+	</section>
+	
 	
 
+	<!-- /Section: portfolio -->
 	
+
+	<!-- //////////////////////////////////////////////////////////// CONTACT ////////////////////////////////////////////////// -->
 
 	<!-- Section: contact -->
     <section id="contact" class="home-section text-center">
@@ -176,7 +274,7 @@
 					<div class="wow bounceInDown" data-wow-delay="0.4s">
 					<h2>Email or phone are welcome</h2>
 					</div>
-					<p class="wow lightSpeedIn" data-wow-delay="0.3s">Friends, introduce your self and get in contact with me </p>
+					<p class="wow lightSpeedIn" data-wow-delay="0.3s" >Friends, introduce your self and get in contact with me </p>
 					</div>
 					
 				</div>
@@ -210,8 +308,9 @@
                         </div>
        
            
-                        <button type="submit" class="btn btn-skin btn-block" id="btnContactUs">
-                            Send Message</button>
+                        <button type="submit" class="btn btn-skin btn-block" id="btnContactUs" title="send now" >
+							Send Message</button>
+						
        
                 </div>
                 </form>
@@ -220,6 +319,21 @@
 			<div class="text-center">
 					<p class="lead"><i class="fa fa-phone"></i> Contact me@ 0311-2362577 <br><i class="fa fa-envelope"></i>
 						mail me@ comengr.hussaintahir14@gmail.com</p>
+						
+							<ul class="social-media list-inline">
+								<li><a href="https://www.facebook.com/mohammad.hussaintahir" target="_blank"><i class="fa fa-facebook" style="color:#888" title="facebook" ></i></a></li>
+								<li><a href="https://twitter.com/mhussaintahirf" target="_blank"><i class="fa fa-twitter" style="color:#888" title="twitter"></i></a></li>
+								<li><a href="https://plus.google.com/u/0/108243834224782426275" target="_blank"><i class="fa fa-google-plus" style="color:#888" title="google plus"></i></a></li>
+								<li><a href="https://github.com/mhussaintahir" target="_blank"><i class="fa fa-github" style="color:#888" title="Github"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/muhammad-hussain-tahir-77549514a/" target="_blank"><i class="fa fa-linkedin-square" style="color:#888" title="Linked In"></i></a></li>
+							</ul>
+							<div class="page-scroll">
+								<a href="#page-top">
+									<i class="fa fa-angle-up fa-5x animated" title="let's Roll"></i>
+								</a>
+							</div>
+							
+						
 			</div>
         </div>
 
@@ -228,6 +342,8 @@
 		</div>
 	</section>
 	<!-- /Section: contact -->
+
+	<!-- //////////////////////////////////////////////////////////////// FOOTER/////////////////////////////////////////////////	 -->
 
 	<footer>
 		<div class="container">
@@ -250,8 +366,10 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/nivo-lightbox.min.js"></script>
+
+	
     <!-- Custom Theme JavaScript -->
-    <script src="js/custom.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
